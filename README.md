@@ -1,8 +1,8 @@
 # Blade SportType Icons
 
-<!-- <a href="https://github.com/hopasports/blade-sporttype-icons/actions?query=workflow%3ATests">
-    <img src="https://github.com/blade-ui-kit/blade-sporttype-icons/workflows/Tests/badge.svg" alt="Tests">
-</a> -->
+<a href="https://github.com/hopasports/blade-sporttype-icons/actions?query=workflow%3ATests">
+    <img src="https://github.com/hopasports/blade-sporttype-icons/workflows/Tests/badge.svg" alt="Tests">
+</a>
 <a href="https://packagist.org/packages/hopasports/blade-sporttype-icons">
     <img src="https://img.shields.io/packagist/v/hopasports/blade-sporttype-icons" alt="Latest Stable Version">
 </a>
