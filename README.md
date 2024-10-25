@@ -45,12 +45,6 @@ And even use inline styles:
 <x-sporttype-athletics style="color: #555"/>
 ```
 
-The solid icons can be referenced like this:
-
-```blade
-<x-sporttype-s-adjustments/>
-```
-
 ### Raw SVG Icons
 
 If you want to use the raw SVG icons as assets, you can publish them using:
