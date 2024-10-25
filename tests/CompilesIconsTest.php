@@ -2,11 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests;
-
-use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
-use BladeUI\Icons\BladeIconsServiceProvider;
-use Orchestra\Testbench\TestCase;
+namespace Hopasports\BladeSporttypeIcons\Tests;
 
 class CompilesIconsTest extends TestCase
 {
@@ -51,13 +47,5 @@ class CompilesIconsTest extends TestCase
             SVG;
 
         $this->assertSame($expected, $result);
-    }
-
-    protected function getPackageProviders($app)
-    {
-        return [
-            BladeIconsServiceProvider::class,
-            BladeHeroiconsServiceProvider::class,
-        ];
     }
 }
