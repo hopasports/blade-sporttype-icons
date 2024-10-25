@@ -48,7 +48,6 @@ jobs:
           rm -rf resources/svg/*
           curl -sSL https://github.com/${{ env.repository }}/archive/refs/tags/${{ steps.latest-version.outputs.release }}.zip -o icons.zip
           unzip -jo icons.zip -d resources/svg
-          rm resources/svg/*.DS_Store
           rm resources/svg/LICENSE
           rm icons.zip
 
