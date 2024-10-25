@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Hopasports\BladeSporttypeIcons\Tests;
 
-use Hopasports\BladeSporttypeIcons\BladeSporttypeIconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
+use Hopasports\BladeSporttypeIcons\BladeSporttypeIconsServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase
