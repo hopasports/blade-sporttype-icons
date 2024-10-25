@@ -46,7 +46,7 @@ jobs:
         if: steps.new-version.outputs.exists
         run: |
           rm -rf resources/svg/*
-          curl -sSL https://github.com/${{ env.repository }}/archive/refs/tags/${{ steps.latest-version.outputs.release }}.tar.gz -o icons.zip
+          curl -sSL https://github.com/${{ env.repository }}/archive/refs/tags/${{ steps.latest-version.outputs.release }}.zip -o icons.zip
           unzip -jo icons.zip -d resources/svg
           find . -type f -name '*.DS_Store' -delete
           find . -type f -name 'LICENSE' -delete
